@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+body {
+	background-color: #EEE;
+}
+body,div,p,span {margin: 0;}
+h1,h2 {
+	font-family: 'Dancing Script', cursive;
+	margin: 0;
+	font-weight: normal;
+	font-size: 35px;
+}
+header {
+	padding: 6px 15px;
+	background-color: rgba(0,0,0,0.8);
+	color: #FFF;
+	font-weight: bold;
+	font-size: 20px;
+}
+.caption {
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: center;
+}
+.container{
+	width: 700px;
+	position:relative;
+	margin: 150px auto;
+}
+.tab-selector{
+	padding: 0px;
+	list-style: none;
+	margin: 0px 0px 0px 10px;
+	z-index: 1;
+	position:relative;
+}
+.tab-selector li{
+	margin: 0px 1px 0px 0px;
+	padding: 10px;
+	border: solid 1px #808080;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	width: 200px;
+	display: inline-block;
+	cursor: pointer;
+}
+.tab-selector li a{
+	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.tab-selector li.selected{
+	border-bottom: solid 1px transparent;
+}
+.tab-container{
+	padding: 0px;
+	list-style: none;
+	margin-top:-1px;
+	position:relative;
+}
+.tab-container li{
+	margin: 0px;
+	padding: 10px;
+	border: solid 1px #808080;
+	text-align: left;
+	width: 680px;
+	height: 300px;
+	display: inline-block;
+	display: none;
+}
+.tab-container li.selected{
+	display: block;
+}
+.selector1, #container1{
+	background-color: #E094AF;
+}
+.selector2, #container2{
+	background-color: #D65D7E;
+}
+.selector3, #container3{
+	background-color: #6F89C7;
+}
