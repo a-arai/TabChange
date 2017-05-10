@@ -2,13 +2,13 @@ var A_ARAI = A_ARAI || {};
 A_ARAI.SAMPLE = {};
 
 
-A_ARAI.SAMPLE.TABCHANGE = {
+A_ARAI.SAMPLE.TabChange = {
 
 	init: function() {
 		this.setParameters();
 		this.bindEvent();
 	},
-	setParameters : function(){
+	setParameters: function(){
 		this.trigger = $('.tab-selector').find('li');
 		this.$contents = $('.tab-container').find('li');
 	},
@@ -30,5 +30,5 @@ A_ARAI.SAMPLE.TABCHANGE = {
 };
 
 $(window).on('load', function(){
-	A_ARAI.SAMPLE.TABCHANGE.init();
+	A_ARAI.SAMPLE.TabChange.init();
 });
